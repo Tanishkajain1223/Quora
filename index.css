@@ -1,0 +1,79 @@
+/* Global resets */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background-color: #fafafa;
+  padding: 1rem;
+}
+
+.container {
+  padding: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.no-questions {
+  color: #555;
+  font-style: italic;
+}
+
+/* Question Box */
+.question-box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+  font-size: 1rem;
+}
+
+/* Post Cards */
+.question-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.question-text {
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+.timestamp {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.button {
+  background-color: #1976d2;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.button:hover {
+  background-color: #1565c0;
+}
